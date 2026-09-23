@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../lib/supabase';
 import type { Vehicle } from '../types';
-import { CarFront, Search, Plus, MoreVertical } from 'lucide-react';
+import { CarFront, Search, Plus } from 'lucide-react';
 import { useForm } from 'react-hook-form';
 import { Modal } from '../components/ui/Modal';
 import { Dropdown } from '../components/ui/Dropdown';

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../lib/supabase';
 import { MaintenanceModal } from '../components/maintenance/MaintenanceModal';
-import { Wrench, Search, Plus, MoreVertical, Pencil, Trash2 } from 'lucide-react';
+import { Wrench, Search, Plus, Pencil, Trash2 } from 'lucide-react';
 import { Dropdown } from '../components/ui/Dropdown';
 
 const mockMaintenance: any[] = [

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../lib/supabase';
 import type { Customer } from '../types';
-import { Search, Plus, MoreVertical, Mail, Phone, Pencil, Trash2 } from 'lucide-react';
+import { Search, Plus, Mail, Phone, Pencil, Trash2 } from 'lucide-react';
 import { Dropdown } from '../components/ui/Dropdown';
 import { useForm } from 'react-hook-form';
 import { Modal } from '../components/ui/Modal';

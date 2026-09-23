@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { supabase } from '../lib/supabase';
 import { BookingModal } from '../components/bookings/BookingModal';
 
-import { CalendarDays, Search, Plus, MoreVertical, ArrowRight, Pencil, Trash2 } from 'lucide-react';
+import { CalendarDays, Search, Plus, ArrowRight, Pencil, Trash2 } from 'lucide-react';
 import { Dropdown } from '../components/ui/Dropdown';
 
 const mockBookings: any[] = [
